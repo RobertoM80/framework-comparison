@@ -5,11 +5,16 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "bash deploy.sh"
   },
   "dependencies": {
+    "@syncfusion/ej2-vue-grids": "^17.1.48",
+    "axios": "^0.18.0",
     "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+    "element-ui": "^2.8.2",
+    "vue": "^2.6.10",
+    "vuetify": "^1.5.14"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.5",
